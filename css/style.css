@@ -2,16 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "poppins", sans-serif;
 }
 
 body{
-    background-color: #f4c531;
+    background-color:#7752FE;
 }
 
+h3{
+    padding-bottom: 1.5rem;
+}
 .container{
     font-size: 16px;
-    background-color: #ffffff;
+    background-color: #C2D9FF;
     width: 90vw;
     max-width: 34em;
     position: absolute;
@@ -36,8 +38,8 @@ body{
 #options-container button {
     padding: 0.6em 1.2em;
     border: 3px solid #000000;
-    background-color: #ffffff;
-    color: #000000;
+    background-color:#190482;
+    color: white;
     border-radius: 0.3em;
     text-transform: capitalize;
 }
@@ -117,10 +119,11 @@ canvas {
 #new-game-button{
     font-size: 1.25em;
     padding: 0.5em 1em;
-    background-color: #f4c531;
+    background-color:red;
     border: 3px solid #000000;
-    color: #000000;
+    color: white;
     border-radius: 0.2em;
+    margin-top: 5rem;
 }
 
 .win-msg{
